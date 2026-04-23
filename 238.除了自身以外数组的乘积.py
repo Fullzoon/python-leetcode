@@ -30,7 +30,7 @@ def productExceptSelf1(nums):
             else:
                 answer.append(0)
         else:
-            answer.append(product*pow(num,-1))
+            answer.append(int(product*(num**-1)))
 
     return answer
 
