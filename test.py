@@ -1,8 +1,2 @@
-
-
-
-arr = [9]
-
-ind = arr.index(1)
-
-print(ind)
+for i in range(1, 10):
+    print(i)
