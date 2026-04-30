@@ -1,2 +1,3 @@
-for i in range(1, 10):
-    print(i)
+words1 = ["This", "is", "an", "example", "of", "text", "justification.", 'justification', 'justification']
+
+print('-'.join(words1))
